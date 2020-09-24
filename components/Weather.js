@@ -1,7 +1,18 @@
-import React, { useState, useEffect  } from 'react';
+import React, { useState, useEffect } from 'react';
 import { View, Text, ImageBackground, StyleSheet } from 'react-native';
 import Forecast from './Forecast';
-const apiKey = '6cecb9dd2e369d7e9b5d62bc682150d4'
+const apiKey = '6cecb9dd2e369d7e9b5d62bc682150d4';
+
+// function add(a, b) {
+//     return a+b;
+// }
+
+// const add = function(a,b) {
+//     return a+b
+// }
+
+// const add = (a,b) => { return a+b }
+// const add = (a,b) => a+b
 
 export default function Weather(props) {
     const [forecastInfo, setForecastInfo] = useState({
